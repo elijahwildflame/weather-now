@@ -5,6 +5,9 @@ const app = express()
 // setting view engine
 app.set('view engine', 'ejs');
 
+// middelware/
+app.use(express.static('./public'));
+
 /*
     routes
 */
